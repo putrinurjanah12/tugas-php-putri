@@ -1,11 +1,14 @@
 <?php
-	if (!empty($_SERVER['HTTPS']) && ('on' == $_SERVER['HTTPS'])) {
-		$uri = 'https://';
-	} else {
-		$uri = 'http://';
-	}
-	$uri .= $_SERVER['HTTP_HOST'];
-	header('Location: '.$uri.'/dashboard/');
-	exit;
-?>
-Something is wrong with the XAMPP installation :-(
+for ($i = 1; $i <= 5; $i++) {
+    for ($j = 1; $j <= $i; $j++) {
+        echo "*";
+    }
+    echo "<br>";
+}
+
+for ($i = 1; $i <= 20; $i++) {
+    if ($i % 3 == 0) {
+        echo "Perulangan ke $i";
+        echo "<br>";
+    }
+}

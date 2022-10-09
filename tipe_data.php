@@ -14,7 +14,7 @@ var_dump($umur);
 echo "<br><br>";
 
 // float
-$nilai = - 3.70;
+$nilai = - 3.71;
 
 var_dump ($nilai);
 echo "<br><br>";
@@ -25,7 +25,7 @@ var_dump($is_student);
 echo "<br><br>";
 
 // Array biasa
-$mahasiswa1 = ["Putri", 17, 3.70, false];
+$mahasiswa1 = ["Putri", 17, 3.71, false];
 var_dump($mahasiswa1);
 
 echo "<br><br";
@@ -38,7 +38,7 @@ echo "<br><br>";
 $mahasiswa2 = [
     "nama" => "Putri",
     "umur" => 17,
-    "nilai" => 3.70,
+    "nilai" => 3.71,
     "is_active" => true
 ];
 
